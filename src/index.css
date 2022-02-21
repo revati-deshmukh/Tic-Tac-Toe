@@ -13,23 +13,30 @@ ol, ul {
   display: table;
 }
 
+#root {
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  margin-top: 5%;
+}
+
 .status {
   margin-bottom: 10px;
 }
 
 .square {
-  background: #fff;
-  border: 1px solid #999;
+  background: #fff8dc;
+  border: 1px solid #8b4513;
   float: left;
   font-size: 24px;
   font-weight: bold;
-  line-height: 34px;
-  height: 34px;
-  margin-right: -1px;
-  margin-top: -1px;
+  line-height: 50px;
+  height: 50px;
+  /* margin-right: -1px;
+  margin-top: -1px; */
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 50px;
 }
 
 .square:focus {
@@ -41,10 +48,22 @@ ol, ul {
 }
 
 .game {
-  display: flex;
-  flex-direction: row;
+  /* display: flex;
+  flex-direction: row; */
 }
 
 .game-info {
-  margin-left: 20px;
+  margin-top: 20px;
+  /* margin-left: 20px; */
+}
+
+.move-info {
+  color: #212529;
+  background-color: #ffc107;
+  border-color: #ffc107;
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  padding: .375rem .75rem;
+  margin-top: 5%;
 }
